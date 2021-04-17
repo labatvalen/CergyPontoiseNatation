@@ -1,0 +1,496 @@
+/********** page de connexion **********/
+
+.wallpaper_connexion{
+    position: fixed;
+    opacity: 0.8;
+    height: 100%;
+    width: 100%;
+}
+
+.situation_card{
+    padding: 7% 0 0 15%; 
+}
+
+.imglogo{
+    position: fixed;
+    height: 125px;
+    width: 90px;
+    bottom: 30px;
+    right: 45px;
+    align-content: center;
+    border-radius: 1px;
+}
+
+
+/********** Pour toutes les pages **********/
+
+.wallpaper_pages{
+    position: fixed;
+    opacity: 0.5;
+    height: 100vh;
+    width: 100%;
+}
+
+.liens_navbar{
+    padding: 0 0 0 5%;
+}
+
+/********** Pied de page *******/
+
+
+
+/* Style all font awesome icons */
+.fa {
+  padding: 4px;
+  font-size: 20px;
+  width: 28px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+/* Insta */
+.fa-instagram {
+    background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    color: white;
+}
+
+
+/********** Page Home **********/
+
+.content_page{
+    margin: 70px 15% 0 15%;
+    position: relative;
+    
+}
+
+.content_card{
+    margin: 10px 10% 0 10%;
+    position: relative;
+}
+
+
+.formulaire {
+    padding: 20px 0 0 0;
+}
+
+
+.content_page a{
+    text-decoration: none;
+}
+
+.image_card{
+    height: 275px;
+}
+
+.image_card img{
+    padding: 20px 20px 20px 20px;
+    height: 275px;
+    border-bottom: 1px solid #d4d4d4;
+}
+
+
+/********** Page de Stats et de données **********/
+
+.bloc_donnees{
+    margin: 30px 50px 50px 50px;
+    position: relative;
+}
+
+.taille_boutons_donnees li {
+    max-width: 200px;
+}
+
+
+.deck_menu{
+    padding: 0 12em 0 12em;
+    position: relative;
+}
+
+/********** Tableaux **********/
+
+
+.tableau thead tr{
+    background: rgba(168, 168, 168, 0.4);
+    font-family: sans-serif;
+    color: black;
+}
+
+.tableau tbody tr{
+    background: rgba(255, 255, 255, 0.4);
+}
+
+
+
+
+
+
+
+
+
+/* KEYFRAMES */
+
+/* KEYFRAMES */
+
+@-webkit-keyframes animateBubble {
+    0% {
+        margin-top: 1000px;
+    }
+    100% {
+        margin-top: -100%;
+    }
+}
+
+@-moz-keyframes animateBubble {
+    0% {
+        margin-top: 1000px;
+    }
+    100% {
+        margin-top: -100%;
+    }
+}
+
+@keyframes animateBubble {
+    0% {
+        margin-top: 1000px;
+    }
+    100% {
+        margin-top: -100%;
+    }
+}
+
+@-webkit-keyframes sideWays {
+    0% {
+        margin-left:0px;
+    }
+    100% {
+        margin-left:50px;
+    }
+}
+
+@-moz-keyframes sideWays {
+    0% {
+        margin-left:0px;
+    }
+    100% {
+        margin-left:50px;
+    }
+}
+
+@keyframes sideWays {
+    0% {
+        margin-left:0px;
+    }
+    100% {
+        margin-left:50px;
+    }
+}
+
+/* ANIMATIONS */
+
+.x1 {
+    -webkit-animation: animateBubble 25s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 25s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    animation: animateBubble 25s linear infinite, sideWays 2s ease-in-out infinite alternate;
+
+    left: -5%;
+    top: 5%;
+
+    -webkit-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    transform: scale(0.6);
+}
+
+.x2 {
+    -webkit-animation: animateBubble 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    animation: animateBubble 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
+
+    left: 5%;
+    top: 80%;
+
+    -webkit-transform: scale(0.4);
+    -moz-transform: scale(0.4);
+    transform: scale(0.4);
+}
+
+.x3 {
+    -webkit-animation: animateBubble 28s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 28s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    animation: animateBubble 28s linear infinite, sideWays 2s ease-in-out infinite alternate;
+
+    left: 10%;
+    top: 40%;
+
+    -webkit-transform: scale(0.7);
+    -moz-transform: scale(0.7);
+    transform: scale(0.7);
+}
+
+.x4 {
+    -webkit-animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+    animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+
+    left: 20%;
+    top: 0;
+
+    -webkit-transform: scale(0.3);
+    -moz-transform: scale(0.3);
+    transform: scale(0.3);
+}
+
+.x5 {
+    -webkit-animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+
+    left: 30%;
+    top: 50%;
+
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    transform: scale(0.5);
+}
+
+.x6 {
+    -webkit-animation: animateBubble 21s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 21s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    animation: animateBubble 21s linear infinite, sideWays 2s ease-in-out infinite alternate;
+
+    left: 50%;
+    top: 0;
+
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    transform: scale(0.8);
+}
+
+.x7 {
+    -webkit-animation: animateBubble 20s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 20s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    animation: animateBubble 20s linear infinite, sideWays 2s ease-in-out infinite alternate;
+
+    left: 65%;
+    top: 70%;
+
+    -webkit-transform: scale(0.4);
+    -moz-transform: scale(0.4);
+    transform: scale(0.4);
+}
+
+.x8 {
+    -webkit-animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+    animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+
+    left: 80%;
+    top: 10%;
+
+    -webkit-transform: scale(0.3);
+    -moz-transform: scale(0.3);
+    transform: scale(0.3);
+}
+
+.x9 {
+    -webkit-animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+
+    left: 90%;
+    top: 50%;
+
+    -webkit-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    transform: scale(0.6);
+}
+
+.x10 {
+    -webkit-animation: animateBubble 26s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 26s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    animation: animateBubble 26s linear infinite, sideWays 2s ease-in-out infinite alternate;
+
+    left: 80%;
+    top: 80%;
+
+    -webkit-transform: scale(0.3);
+    -moz-transform: scale(0.3);
+    transform: scale(0.3);
+}
+
+/* OBJECTS */
+
+.bubble {
+    -webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	
+    -webkit-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
+	-moz-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
+	box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
+	
+    height: 200px;
+	position: absolute;
+	width: 200px;
+}
+
+.bubble:after {
+    background: -moz-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.5) 0%, rgba(255,255,255,0) 70%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,0.5)), color-stop(70%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 70%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 70%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 70%); /* IE10+ */
+    background: radial-gradient(ellipse at center,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 70%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+    -webkit-border-radius: 80%;
+    -moz-border-radius: 80%;
+    border-radius: 80%;
+
+    -webkit-box-shadow: inset 0 20px 30px rgba(255, 255, 255, 0.3);
+    -moz-box-shadow: inset 0 20px 30px rgba(255, 255, 255, 0.3);
+    box-shadow: inset 0 20px 30px rgba(255, 255, 255, 0.3);
+
+    content: "";
+    height: 180px;
+    left: 10px;
+    position: absolute;
+    width: 180px;
+}
+
+/*texte border*/
+.block{
+  border: 5px solid black;
+  min-height: 10px;
+  resize: both;
+  border-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='100' height='100' viewBox='0 0 100 100' fill='none' xmlns='http://www.w3.org/2000/svg'%3E %3Cstyle%3Epath%7Banimation:stroke 5s infinite linear%3B%7D%40keyframes stroke%7Bto%7Bstroke-dashoffset:776%3B%7D%7D%3C/style%3E%3ClinearGradient id='g' x1='0%25' y1='0%25' x2='0%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%232d3561' /%3E%3Cstop offset='25%25' stop-color='%23c05c7e' /%3E%3Cstop offset='50%25' stop-color='%23f3826f' /%3E%3Cstop offset='100%25' stop-color='%23ffb961' /%3E%3C/linearGradient%3E %3Cpath d='M1.5 1.5 l97 0l0 97l-97 0 l0 -97' stroke-linecap='square' stroke='url(%23g)' stroke-width='3' stroke-dasharray='388'/%3E %3C/svg%3E") 1;
+}
+
+
+
+
+/*reseau*/
+.nav justify-content-center {
+	position: absolute;
+    bottom: 0;
+}
+a.mt-share-inline-circle-sm img {
+  width: 44px;
+  height: 44px;
+  border: 0px none;
+}
+a.mt-share-inline-circle-sm {
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  margin-right: 4px;
+}
+
+.mt-twitter:hover {
+  background-color: rgb(8, 187, 255);
+}
+.mt-twitter {
+  background-color: rgb(0, 172, 238);
+}
+.mt-facebook:hover {
+  background-color: rgb(66, 100, 170);
+}
+.mt-facebook {
+  background-color: rgb(59, 89, 152);
+}
+
+
+/*vague*/
+
+footer {
+    width:100%;
+    height: 200px;
+    margin: 0 0 0 0 ;
+    position:relative;
+}
+footer div{
+    background-color: var(--col-deepblue);
+    margin: -5px 0px 0px 0px;
+    padding:0px;
+    color: #fff;
+    text-align:center;
+    }
+svg {
+    width:100%;
+    overflow:hidden;
+}
+
+.wave {
+    animation: wave 13s linear;
+    height: 100px;
+    animation-iteration-count:infinite;
+    fill: #4478e3;
+}
+
+#wave2 {
+     
+    animation-duration:15s;
+    height: 100px;
+    animation-direction: reverse;
+    opacity: .6
+}
+#wave3 {
+    animation-duration: 17s;
+    opacity:.3;
+}
+
+@keyframes wave {
+    to {transform: translateX(-100%);}
+}
+
+
+/*titre*/
+
+.ml15 {
+  font-weight: 800;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  text-align: center;
+  top: 1500px;
+  color: darkblue;
+}
+
+.ml15 .word {
+  display: inline-block;
+  line-height: 3em;
+}
+
+
+
+/*photo zoom*/
+
+.zoom {
+  
+    transition: transform .2s; /* Animation */
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}

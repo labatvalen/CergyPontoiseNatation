@@ -1,0 +1,33 @@
+function getXHR() {
+  var xhr = null;
+  if (window.XMLHttpRequest) // FF & autres
+     xhr = new XMLHttpRequest();
+  else if (window.ActiveXObject) { // IE < 7
+       try {
+         xhr = new ActiveXObject("Msxml2.XMLHTTP");
+       } catch (e) {
+         xhr = new ActiveXObject("Microsoft.XMLHTTP");
+       }
+  } else { // Objet non supporté par le navigateur
+     alert("Votre navigateur ne supporte pas AJAX");
+     xhr = false;
+  }
+  return xhr;
+}
+
+
+function connecterBDD($server, $user, $password) {
+    $dataBase = mysqli_connect($server, $user, $password);
+    if (!$dataBase) {
+       die("Erreur: " . mysqli_connect_error());
+    }
+     return $dataBase;
+} 
+
+function deconnecterBDD($dataBase) {
+   if (isset($dataBase)) {
+       mysqli_close($dataBase);
+   }
+}
+
+
